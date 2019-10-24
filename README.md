@@ -10,14 +10,15 @@
 
 _Projects, playgrounds, and other material made while following along with [Paul Hudson’s 100 Days of SwiftUI course](https://www.hackingwithswift.com/100/swiftui)._
 
-For each project, I'll make a standalone folder and link to it below. 
+For each project is a standalone folder and link to it below. 
 
 ## Basics
 
 <details>
 <summary>Full List</summary>
 
-- **Days 1-15:** Introduction to Swift, covered during the [100 Days of Swift]("https://github.com/ErikWaterham/100-days-of-Swift-SwiftUI-basics") challenge.
+- **Days 1-15:** Introduction to Swift, covered during the [100 Days of Swift](https://github.com/ErikWaterham/100-days-of-Swift-SwiftUI-basics) challenge.
+</details>
 
 ## Projects
 
@@ -29,3 +30,4 @@ For each project, I'll make a standalone folder and link to it below.
 - **Project 03:** [Views And Modifiers](./project-03/)
 - **Project 04:** [Better Rest](./project-04/)
 - **Project 05:** [Word Scramble](./project-05/)
+</details>
