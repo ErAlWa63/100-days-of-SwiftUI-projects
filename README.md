@@ -2,7 +2,7 @@
 
 <p align="center">
     <img src="https://img.shields.io/badge/Apple Swift-version 5.1 (swiftlang--1100.0.270.13 clang--1100.0.33.7)-brightgreen.svg" />
-    <img src="https://img.shields.io/badge/XmacOS Catalina-10.15.1 beta 2 (19B77a)+-blue.svg" />
+    <img src="https://img.shields.io/badge/MacOS Catalina-10.15.1 beta 3 (19B86a)+-blue.svg" />
     <img src="https://img.shields.io/badge/Xcode-11.2 Beta 2 (11B44)+-blue.svg" />
     <img src="https://img.shields.io/badge/iOS-13.2 Beta 4 (17B5084a)+-blue.svg" />
 </p>
