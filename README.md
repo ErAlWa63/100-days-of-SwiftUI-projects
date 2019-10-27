@@ -30,4 +30,5 @@ For each project is a standalone folder and link to it below.
 - **Project 03:** [Views And Modifiers](./project-03/)
 - **Project 04:** [Better Rest](./project-04/)
 - **Project 05:** [Word Scramble](./project-05/)
+- **Project 06:** [Animations](./project-06/)
 </details>
