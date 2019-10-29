@@ -25,7 +25,7 @@ For each project is a standalone folder and link to it below.
 <details>
 <summary>Full List</summary>
 
-- **Project 01:** [We Split](./project-01/) Day 16 + Day 17
+- **Project 01:** [We Split](./project-01/) - Day 16, 17 and 18
 - **Project 02:** [Guess The Flag](./project-02/)
 - **Project 03:** [Views And Modifiers](./project-03/)
 - **Project 04:** [Better Rest](./project-04/)
