@@ -25,10 +25,18 @@ For each project is a standalone folder and link to it below.
 <details>
 <summary>Full List</summary>
 
-- **Project 01:** [We Split](./project-01/) - Day 16, 17 and 18
+- **Days 16-18 - Project 01:** [We Split](./project-01/)
 - **Project 02:** [Guess The Flag](./project-02/)
 - **Project 03:** [Views And Modifiers](./project-03/)
 - **Project 04:** [Better Rest](./project-04/)
 - **Project 05:** [Word Scramble](./project-05/)
 - **Project 06:** [Animations](./project-06/)
+</details>
+
+## Challenges
+
+<details>
+<summary>Full List</summary>
+
+- **Day 19 - Challenge 01:** [Unit conversion](https://github.com/ErikWaterham/100-days-of-SwiftUI-challenges/challenge-01) challenge.
 </details>
