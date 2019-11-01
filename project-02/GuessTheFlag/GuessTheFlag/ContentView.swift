@@ -42,6 +42,8 @@ struct ContentView: View {
                         .shadow(color: .black, radius: 2)
                     }
                 }
+                Text("Current score is \(score)")
+                    .foregroundColor(.white)
                 Spacer()
             }
         }
