@@ -2,9 +2,10 @@
 
 <p align="center">
     <img src="https://img.shields.io/badge/Apple Swift-version 5.1 (swiftlang--1100.0.270.13 clang--1100.0.33.7)-brightgreen.svg" />
-    <img src="https://img.shields.io/badge/MacOS Catalina-10.15.1 beta 3 (19B86a)+-blue.svg" />
-    <img src="https://img.shields.io/badge/Xcode-11.2 Beta 2 (11B44)+-blue.svg" />
-    <img src="https://img.shields.io/badge/iOS-13.2 Beta 4 (17B5084a)+-blue.svg" />
+    <img src="https://img.shields.io/badge/MacOS Catalina-10.15.1 beta 3 (19B86a)-blue.svg" />
+    <img src="https://img.shields.io/badge/Xcode-11.2 Beta 2 (11B44)-blue.svg" />
+    <img src="https://img.shields.io/badge/iOS-13.2-brightgreen.svg" />
+    <img src="https://img.shields.io/badge/iPadOS-13.2-brightgreen.svg" />
 </p>
 
 
@@ -27,7 +28,7 @@ For each project is a standalone folder and link to it below.
 
 - **Days 16-18 - Project 01:** [We Split](./project-01/)
 - **Days 20-22 - Project 02:** [Guess The Flag](./project-02/)
-- **Day 23 - Project 03:** [Views And Modifiers](./project-03/)
+- **Days 23-24 - Project 03:** [Views And Modifiers](./project-03/)
 - **Project 04:** [Better Rest](./project-04/)
 - **Project 05:** [Word Scramble](./project-05/)
 - **Project 06:** [Animations](./project-06/)
