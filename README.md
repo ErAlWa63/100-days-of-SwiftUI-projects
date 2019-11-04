@@ -29,7 +29,7 @@ For each project is a standalone folder and link to it below.
 - **Days 16-18, 24 - Project 01:** [We Split](./project-01/)
 - **Days 20-22, 24- Project 02:** [Guess The Flag](./project-02/)
 - **Days 23-24 - Project 03:** [Views And Modifiers](./project-03/)
-- **Project 04:** [Better Rest](./project-04/)
+- **Day 26 - Project 04:** [Better Rest](./project-04/)
 - **Project 05:** [Word Scramble](./project-05/)
 - **Project 06:** [Animations](./project-06/)
 </details>
@@ -39,5 +39,6 @@ For each project is a standalone folder and link to it below.
 <details>
 <summary>Full List</summary>
 
-- **Day 19 - Challenge 01:** [Unit conversion](https://github.com/ErikWaterham/100-days-of-SwiftUI-challenges/challenge-01) challenge.
+- **Day 19 - Challenge 01:** [Unit conversion](https://github.com/ErikWaterham/100-days-of-SwiftUI-challenges/challenge-01)
+- **Day 25 - Challenge 02:** [Rock Paper Scissors](https://github.com/ErikWaterham/100-days-of-SwiftUI-challenges/challenge-02)
 </details>
