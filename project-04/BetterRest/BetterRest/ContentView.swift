@@ -13,10 +13,6 @@ struct ContentView: View {
     @State private var sleepAmount = 8.0
     @State private var coffeeAmountIndex = 0
 
-    @State private var alertTitle = ""
-    @State private var alertMessage = ""
-    @State private var showingAlert = false
-
     var body: some View {
         NavigationView {
             Form {
@@ -28,7 +24,6 @@ struct ContentView: View {
                         .labelsHidden()
                         .datePickerStyle(WheelDatePickerStyle())
                 }
-
                 Section {
                     Text("Desired amount of sleep")
                         .font(.headline)
@@ -48,16 +43,12 @@ struct ContentView: View {
                         }
                     }
                 }
+                Section {
+                    Text("\(calculateBedtime())")
+                        .font(.headline)
+                }
             }
             .navigationBarTitle("BetterRest")
-            .navigationBarItems(trailing:
-                Button(action: calculateBedtime) {
-                    Text("Calculate")
-                }
-            )
-                .alert(isPresented: $showingAlert) {
-                    Alert(title: Text(alertTitle), message: Text(alertMessage), dismissButton: .default(Text("OK")))
-            }
         }
     }
 
@@ -68,11 +59,13 @@ struct ContentView: View {
         return Calendar.current.date(from: components) ?? Date()
     }
 
-    func calculateBedtime() {
+    func calculateBedtime() -> String {
         let model = SleepCalculator()
         let components = Calendar.current.dateComponents([.hour, .minute], from: wakeUp)
         let hour = (components.hour ?? 0) * 60 * 60
         let minute = (components.minute ?? 0) * 60
+        var alertMessage = ""
+        var alertTitle = ""
 
         do {
             let coffeeAmount = coffeeAmountIndex + 1
@@ -84,12 +77,12 @@ struct ContentView: View {
             formatter.timeStyle = .short
 
             alertMessage = formatter.string(from: sleepTime)
-            alertTitle = "Your ideal bedtime is…"
+            alertTitle = "Your ideal bedtime is "
         } catch {
             alertTitle = "Error"
             alertMessage = "Sorry, there was a problem calculating your bedtime."
         }
-        showingAlert = true
+        return "\(alertTitle) \(alertMessage)"
     }
 }
 
