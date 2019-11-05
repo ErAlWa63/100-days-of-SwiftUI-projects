@@ -11,7 +11,7 @@ import SwiftUI
 struct ContentView: View {
     @State private var wakeUp = defaultWakeTime
     @State private var sleepAmount = 8.0
-    @State private var coffeeAmount = 1
+    @State private var coffeeAmountIndex = 0
 
     @State private var alertTitle = ""
     @State private var alertMessage = ""
@@ -38,14 +38,13 @@ struct ContentView: View {
                     }
                 }
                 Section {
-                    Text("Daily coffee intake")
-                        .font(.headline)
-
-                    Stepper(value: $coffeeAmount, in: 1...20) {
-                        if coffeeAmount == 1 {
-                            Text("1 cup")
-                        } else {
-                            Text("\(coffeeAmount) cups")
+                    Picker("Daily coffee intake", selection: $coffeeAmountIndex) {
+                        ForEach(1 ..< 21) {
+                            if $0 <= 1 {
+                                Text("\($0) cup")
+                            } else {
+                                Text("\($0) cups")
+                            }
                         }
                     }
                 }
@@ -76,6 +75,7 @@ struct ContentView: View {
         let minute = (components.minute ?? 0) * 60
 
         do {
+            let coffeeAmount = coffeeAmountIndex + 1
             let prediction = try model.prediction(wake: Double(hour + minute), estimatedSleep: sleepAmount, coffee: Double(coffeeAmount))
 
             let sleepTime = wakeUp - prediction.actualSleep
