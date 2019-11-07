@@ -81,6 +81,9 @@ struct ContentView: View {
         } else {
             scoreTitle = "Wrong! That's the flag of \(countries[number])."
             score -= 1
+            withAnimation(Animation.easeInOut(duration: 2)) {
+                spinAnimationAmounts[number] -= 14400
+            }
         }
 
         showingScore = true
