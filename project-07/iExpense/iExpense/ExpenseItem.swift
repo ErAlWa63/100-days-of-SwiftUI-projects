@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct ExpenseItem: Identifiable {
+struct ExpenseItem: Identifiable, Codable {
     let id = UUID()
     let name: String
     let type: String
