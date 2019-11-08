@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		716E3A992375A4CB002940F2 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716E3A982375A4CB002940F2 /* ExpenseItem.swift */; };
 		717BD31623756B5C000EE67C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717BD31523756B5C000EE67C /* AppDelegate.swift */; };
 		717BD31823756B5C000EE67C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717BD31723756B5C000EE67C /* SceneDelegate.swift */; };
 		717BD31A23756B5C000EE67C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717BD31923756B5C000EE67C /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		716E3A982375A4CB002940F2 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
 		717BD31223756B5C000EE67C /* iExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		717BD31523756B5C000EE67C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		717BD31723756B5C000EE67C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				717BD31523756B5C000EE67C /* AppDelegate.swift */,
 				717BD31723756B5C000EE67C /* SceneDelegate.swift */,
 				717BD31923756B5C000EE67C /* ContentView.swift */,
+				716E3A982375A4CB002940F2 /* ExpenseItem.swift */,
 				717BD31B23756B5F000EE67C /* Assets.xcassets */,
 				717BD32023756B5F000EE67C /* LaunchScreen.storyboard */,
 				717BD32323756B5F000EE67C /* Info.plist */,
@@ -149,6 +152,7 @@
 				717BD31623756B5C000EE67C /* AppDelegate.swift in Sources */,
 				717BD31823756B5C000EE67C /* SceneDelegate.swift in Sources */,
 				717BD31A23756B5C000EE67C /* ContentView.swift in Sources */,
+				716E3A992375A4CB002940F2 /* ExpenseItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
