@@ -6,7 +6,10 @@
 //  Copyright © 2019 Erik Waterham. All rights reserved.
 //
 
-struct ExpenseItem {
+import SwiftUI
+
+struct ExpenseItem: Identifiable {
+    let id = UUID()
     let name: String
     let type: String
     let amount: Int
