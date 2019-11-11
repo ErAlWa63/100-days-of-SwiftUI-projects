@@ -18,6 +18,8 @@ struct AddView: View {
 
     static let types = ["Business", "Personal"]
 
+    @State private var showingAlert = false
+
     var body: some View {
         NavigationView {
             Form {
@@ -37,7 +39,14 @@ struct AddView: View {
                     self.expenses.items.append(item)
                     self.presentationMode.wrappedValue.dismiss()
                 }
+                else {
+                    self.showingAlert = true
+                }
+
             })
+        }
+        .alert(isPresented: $showingAlert) {
+            Alert(title: Text("Incorrect amount"), message: Text("Amount must be an integer"), dismissButton: .default(Text("OK")))
         }
     }
 }
