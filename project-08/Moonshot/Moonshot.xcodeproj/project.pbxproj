@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7120DB71237C11EB00B95638 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7120DB70237C11EB00B95638 /* Mission.swift */; };
 		71778DA9237C0D9500B24BB0 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71778DA8237C0D9500B24BB0 /* Astronaut.swift */; };
 		71778DAB237C0DFE00B24BB0 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71778DAA237C0DFE00B24BB0 /* Bundle-Decodable.swift */; };
 		71923A182379922D000FB0AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71923A172379922D000FB0AF /* AppDelegate.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7120DB70237C11EB00B95638 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		71778DA8237C0D9500B24BB0 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
 		71778DAA237C0DFE00B24BB0 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		71923A142379922D000FB0AF /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +76,7 @@
 				71778DA8237C0D9500B24BB0 /* Astronaut.swift */,
 				71778DAA237C0DFE00B24BB0 /* Bundle-Decodable.swift */,
 				71923A2E237C09CE000FB0AF /* missions.json */,
+				7120DB70237C11EB00B95638 /* Mission.swift */,
 				71923A1F2379922E000FB0AF /* Preview Content */,
 			);
 			path = Moonshot;
@@ -160,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7120DB71237C11EB00B95638 /* Mission.swift in Sources */,
 				71923A182379922D000FB0AF /* AppDelegate.swift in Sources */,
 				71923A1A2379922D000FB0AF /* SceneDelegate.swift in Sources */,
 				71778DAB237C0DFE00B24BB0 /* Bundle-Decodable.swift in Sources */,
