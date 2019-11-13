@@ -4,8 +4,8 @@
     <img src="https://img.shields.io/badge/Apple Swift-version 5.1 (swiftlang--1100.0.270.13 clang--1100.0.33.7)-brightgreen.svg" />
     <img src="https://img.shields.io/badge/MacOS Catalina-10.15.2 Developer beta 1 (19C32e)-blue.svg" />
     <img src="https://img.shields.io/badge/Xcode-11.2.1 GM seed (11B53)-brightgreen.svg" />
-    <img src="https://img.shields.io/badge/iOS-13.3 beta (17C5032d)-blue.svg" />
-    <img src="https://img.shields.io/badge/iPadOS-13.3 beta (17C5032d)-blue.svg" />
+    <img src="https://img.shields.io/badge/iOS-13.3 Beta 2 (17C5038a)-blue.svg" />
+    <img src="https://img.shields.io/badge/iPadOS-13.3 beta 2 ()-blue.svg" />
 </p>
 
 
@@ -31,7 +31,9 @@ For each project is a standalone folder and link to it below.
 - **Days 23-24 - Project 03:** [Views And Modifiers](./project-03/)
 - **Days 26-28 - Project 04:** [Better Rest](./project-04/)
 - **Days 29-31 - Project 05:** [Word Scramble](./project-05/)
-- **Day 32 - Project 06:** [Animations](./project-06/)
+- **Days 32-34 - Project 06:** [Animations](./project-06/)
+- **Days 36-38 - Project 07:** [iExpense](./project-07/)
+- **Days 39-40 - Project 08:** [Moonshot](./project-08/)
 </details>
 
 ## Challenges
