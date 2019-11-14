@@ -33,7 +33,8 @@ For each project is a standalone folder and link to it below.
 - **Days 29-31 - Project 05:** [Word Scramble](./project-05/)
 - **Days 32-34 - Project 06:** [Animations](./project-06/)
 - **Days 36-38 - Project 07:** [iExpense](./project-07/)
-- **Days 39-40 - Project 08:** [Moonshot](./project-08/)
+- **Days 39-42 - Project 08:** [Moonshot](./project-08/)
+- **Day 43 - Project 09:** [Drawing](./project-09/)
 </details>
 
 ## Challenges
