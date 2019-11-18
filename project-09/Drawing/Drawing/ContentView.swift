@@ -31,7 +31,9 @@ struct ContentView: View {
         Trapezoid(insetAmount: insetAmount)
             .frame(width: 200, height: 100)
             .onTapGesture {
-                self.insetAmount = CGFloat.random(in: 10...90)
+                withAnimation {
+                    self.insetAmount = CGFloat.random(in: 10...90)
+                }
             }
     }
 }
