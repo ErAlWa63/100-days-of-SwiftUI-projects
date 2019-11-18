@@ -12,15 +12,8 @@ struct ContentView: View {
     @State private var colorCycle = 0.0
 
     var body: some View {
-        ZStack {
-            Image("PaulHudson")
-
-            Rectangle()
-                .fill(Color.red)
-                .blendMode(.multiply)
-        }
-        .frame(width: 400, height: 500)
-        .clipped()
+        Image("PaulHudson")
+            .colorMultiply(.red)
     }
 }
 struct ContentView_Previews: PreviewProvider {
