@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct Arrow: Shape {
+    var thickness: CGFloat = 10.0
 
     func path(in rect: CGRect) -> Path {
         var path = Path()
@@ -22,16 +23,28 @@ struct Arrow: Shape {
         path.addLine(to: CGPoint(x: rect.maxX, y: rect.maxY / 4))
         path.addLine(to: CGPoint(x: rect.maxX / 2, y: 0))
 
-        return path
+        return path.strokedPath(StrokeStyle(lineWidth: thickness, lineCap: .round))
     }
+
+    var animatableData: CGFloat {
+        get { thickness }
+        set { thickness =  newValue }
+    }
+
 }
 
 struct ContentView: View {
+    @State private var lineWidth: CGFloat = 3
+
     var body: some View {
         VStack {
-            Arrow()
-                .stroke(Color.red, lineWidth: 3)
+            Arrow(thickness: lineWidth)
                 .frame(width: 200, height: 400)
+                .onTapGesture {
+                    withAnimation {
+                        self.lineWidth = CGFloat.random(in: 1...49)
+                    }
+            }
         }
     }
 }
