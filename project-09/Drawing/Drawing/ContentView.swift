@@ -8,47 +8,47 @@
 
 import SwiftUI
 
-struct Arrow: Shape {
-    var thickness: CGFloat = 10.0
+struct ColorCyclingRectangle: View {
+    var amount = 0.0
+    var steps = 100
 
-    func path(in rect: CGRect) -> Path {
-        var path = Path()
-
-        path.move(to: CGPoint(x: rect.maxX / 2, y: 0))
-        path.addLine(to: CGPoint(x: rect.minX, y: rect.maxY / 4))
-        path.addLine(to: CGPoint(x: rect.maxX / 4, y: rect.maxY / 4))
-        path.addLine(to: CGPoint(x: rect.maxX / 4, y: rect.maxY))
-        path.addLine(to: CGPoint(x: rect.maxX * 3 / 4, y: rect.maxY))
-        path.addLine(to: CGPoint(x: rect.maxX * 3 / 4, y: rect.maxY / 4))
-        path.addLine(to: CGPoint(x: rect.maxX, y: rect.maxY / 4))
-        path.addLine(to: CGPoint(x: rect.maxX / 2, y: 0))
-
-        return path.strokedPath(StrokeStyle(lineWidth: thickness, lineCap: .round))
+    var body: some View {
+        ZStack {
+            ForEach(0..<steps) { value in
+                Rectangle()
+                    .inset(by: CGFloat(value))
+                    .strokeBorder(LinearGradient(gradient: Gradient(colors: [
+                        self.color(for: value, brightness: 1),
+                        self.color(for: value, brightness: 0.5)
+                    ]), startPoint: .top, endPoint: .bottom), lineWidth: 2)
+            }
+        }
+        .drawingGroup()
     }
 
-    var animatableData: CGFloat {
-        get { thickness }
-        set { thickness =  newValue }
-    }
+    func color(for value: Int, brightness: Double) -> Color {
+        var targetHue = Double(value) / Double(self.steps) + self.amount
 
+        if targetHue > 1 {
+            targetHue -= 1
+        }
+
+        return Color(hue: targetHue, saturation: 1, brightness: brightness)
+    }
 }
 
 struct ContentView: View {
-    @State private var lineWidth: CGFloat = 3
+    @State private var colorCycle = 0.0
 
     var body: some View {
         VStack {
-            Arrow(thickness: lineWidth)
-                .frame(width: 200, height: 400)
-                .onTapGesture {
-                    withAnimation {
-                        self.lineWidth = CGFloat.random(in: 1...49)
-                    }
-            }
+            ColorCyclingRectangle(amount: self.colorCycle)
+                .frame(width: 300, height: 300)
+
+            Slider(value: $colorCycle)
         }
     }
 }
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
