@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7180D4B4238D5DA400B73BDB /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7180D4B3238D5DA400B73BDB /* Order.swift */; };
 		7180D4B6238D611700B73BDB /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7180D4B5238D611700B73BDB /* AddressView.swift */; };
+		7180D4B8238D63A700B73BDB /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7180D4B7238D63A700B73BDB /* CheckoutView.swift */; };
 		718180D42386CE500015E07A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718180D32386CE500015E07A /* AppDelegate.swift */; };
 		718180D62386CE500015E07A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718180D52386CE500015E07A /* SceneDelegate.swift */; };
 		718180D82386CE500015E07A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718180D72386CE500015E07A /* ContentView.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		7180D4B3238D5DA400B73BDB /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		7180D4B5238D611700B73BDB /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		7180D4B7238D63A700B73BDB /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		718180D02386CE500015E07A /* CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		718180D32386CE500015E07A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		718180D52386CE500015E07A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				718180D72386CE500015E07A /* ContentView.swift */,
 				7180D4B3238D5DA400B73BDB /* Order.swift */,
 				7180D4B5238D611700B73BDB /* AddressView.swift */,
+				7180D4B7238D63A700B73BDB /* CheckoutView.swift */,
 				718180D92386CE510015E07A /* Assets.xcassets */,
 				718180DE2386CE510015E07A /* LaunchScreen.storyboard */,
 				718180E12386CE510015E07A /* Info.plist */,
@@ -154,6 +157,7 @@
 			files = (
 				718180D42386CE500015E07A /* AppDelegate.swift in Sources */,
 				718180D62386CE500015E07A /* SceneDelegate.swift in Sources */,
+				7180D4B8238D63A700B73BDB /* CheckoutView.swift in Sources */,
 				7180D4B4238D5DA400B73BDB /* Order.swift in Sources */,
 				718180D82386CE500015E07A /* ContentView.swift in Sources */,
 				7180D4B6238D611700B73BDB /* AddressView.swift in Sources */,
