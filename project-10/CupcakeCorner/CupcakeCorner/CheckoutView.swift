@@ -9,7 +9,8 @@
 import SwiftUI
 
 struct CheckoutView: View {
-    @ObservedObject var order: Order
+    @ObservedObject var order: OrderWrapper
+    
     @State private var confirmationMessage = ""
     @State private var showingConfirmation = false
 
@@ -24,7 +25,7 @@ struct CheckoutView: View {
                         .scaledToFit()
                         .frame(width: geo.size.width)
 
-                    Text("Your total is $\(self.order.cost, specifier: "%.2f")")
+                    Text("Your total is $\(self.order.order.cost, specifier: "%.2f")")
                         .font(.title)
 
                     Button("Place Order") {
@@ -66,9 +67,9 @@ struct CheckoutView: View {
                 print("No data in response: \(error?.localizedDescription ?? "Unknown error").")
                 return
             }
-            if let decodedOrder = try? JSONDecoder().decode(Order.self, from: data) {
+            if let decodedOrder = try? JSONDecoder().decode(OrderWrapper.self, from: data) {
                 self.confirmationTitle = "Thank you!"
-                self.confirmationMessage = "Your order for \(decodedOrder.quantity)x \(Order.types[decodedOrder.type].lowercased()) cupcakes is on its way!"
+                self.confirmationMessage = "Your order for \(decodedOrder.order.quantity)x \(Order.types[decodedOrder.order.type].lowercased()) cupcakes is on its way!"
                 self.showingConfirmation = true
             } else {
                 self.confirmationTitle = "Error"
@@ -83,6 +84,6 @@ struct CheckoutView: View {
 
 struct CheckoutView_Previews: PreviewProvider {
     static var previews: some View {
-        CheckoutView(order: Order())
+        CheckoutView(order: OrderWrapper())
     }
 }
