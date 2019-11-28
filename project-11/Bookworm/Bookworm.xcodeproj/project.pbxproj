@@ -7,27 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7121B88F239083D900A6705C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7121B88E239083D900A6705C /* AppDelegate.swift */; };
-		7121B891239083D900A6705C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7121B890239083D900A6705C /* SceneDelegate.swift */; };
-		7121B893239083D900A6705C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7121B892239083D900A6705C /* ContentView.swift */; };
-		7121B895239083DB00A6705C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7121B894239083DB00A6705C /* Assets.xcassets */; };
-		7121B898239083DB00A6705C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7121B897239083DB00A6705C /* Preview Assets.xcassets */; };
-		7121B89B239083DB00A6705C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7121B899239083DB00A6705C /* LaunchScreen.storyboard */; };
+		7121B8AF239084EE00A6705C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7121B8AE239084EE00A6705C /* AppDelegate.swift */; };
+		7121B8B1239084EE00A6705C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7121B8B0239084EE00A6705C /* SceneDelegate.swift */; };
+		7121B8B4239084EE00A6705C /* Bookworm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7121B8B2239084EE00A6705C /* Bookworm.xcdatamodeld */; };
+		7121B8B6239084EE00A6705C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7121B8B5239084EE00A6705C /* ContentView.swift */; };
+		7121B8B8239084EF00A6705C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7121B8B7239084EF00A6705C /* Assets.xcassets */; };
+		7121B8BB239084EF00A6705C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7121B8BA239084EF00A6705C /* Preview Assets.xcassets */; };
+		7121B8BE239084EF00A6705C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7121B8BC239084EF00A6705C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7121B88B239083D900A6705C /* Bookworm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookworm.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7121B88E239083D900A6705C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7121B890239083D900A6705C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7121B892239083D900A6705C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7121B894239083DB00A6705C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7121B897239083DB00A6705C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7121B89A239083DB00A6705C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7121B89C239083DB00A6705C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7121B8AB239084EE00A6705C /* Bookworm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookworm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7121B8AE239084EE00A6705C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7121B8B0239084EE00A6705C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7121B8B3239084EE00A6705C /* Bookworm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm.xcdatamodel; sourceTree = "<group>"; };
+		7121B8B5239084EE00A6705C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7121B8B7239084EF00A6705C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7121B8BA239084EF00A6705C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7121B8BD239084EF00A6705C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7121B8BF239084EF00A6705C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7121B888239083D900A6705C /* Frameworks */ = {
+		7121B8A8239084EE00A6705C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,40 +39,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7121B882239083D900A6705C = {
+		7121B8A2239084EE00A6705C = {
 			isa = PBXGroup;
 			children = (
-				7121B88D239083D900A6705C /* Bookworm */,
-				7121B88C239083D900A6705C /* Products */,
+				7121B8AD239084EE00A6705C /* Bookworm */,
+				7121B8AC239084EE00A6705C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7121B88C239083D900A6705C /* Products */ = {
+		7121B8AC239084EE00A6705C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7121B88B239083D900A6705C /* Bookworm.app */,
+				7121B8AB239084EE00A6705C /* Bookworm.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7121B88D239083D900A6705C /* Bookworm */ = {
+		7121B8AD239084EE00A6705C /* Bookworm */ = {
 			isa = PBXGroup;
 			children = (
-				7121B88E239083D900A6705C /* AppDelegate.swift */,
-				7121B890239083D900A6705C /* SceneDelegate.swift */,
-				7121B892239083D900A6705C /* ContentView.swift */,
-				7121B894239083DB00A6705C /* Assets.xcassets */,
-				7121B899239083DB00A6705C /* LaunchScreen.storyboard */,
-				7121B89C239083DB00A6705C /* Info.plist */,
-				7121B896239083DB00A6705C /* Preview Content */,
+				7121B8AE239084EE00A6705C /* AppDelegate.swift */,
+				7121B8B0239084EE00A6705C /* SceneDelegate.swift */,
+				7121B8B5239084EE00A6705C /* ContentView.swift */,
+				7121B8B7239084EF00A6705C /* Assets.xcassets */,
+				7121B8BC239084EF00A6705C /* LaunchScreen.storyboard */,
+				7121B8BF239084EF00A6705C /* Info.plist */,
+				7121B8B2239084EE00A6705C /* Bookworm.xcdatamodeld */,
+				7121B8B9239084EF00A6705C /* Preview Content */,
 			);
 			path = Bookworm;
 			sourceTree = "<group>";
 		};
-		7121B896239083DB00A6705C /* Preview Content */ = {
+		7121B8B9239084EF00A6705C /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				7121B897239083DB00A6705C /* Preview Assets.xcassets */,
+				7121B8BA239084EF00A6705C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -78,13 +81,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7121B88A239083D900A6705C /* Bookworm */ = {
+		7121B8AA239084EE00A6705C /* Bookworm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7121B89F239083DB00A6705C /* Build configuration list for PBXNativeTarget "Bookworm" */;
+			buildConfigurationList = 7121B8C2239084EF00A6705C /* Build configuration list for PBXNativeTarget "Bookworm" */;
 			buildPhases = (
-				7121B887239083D900A6705C /* Sources */,
-				7121B888239083D900A6705C /* Frameworks */,
-				7121B889239083D900A6705C /* Resources */,
+				7121B8A7239084EE00A6705C /* Sources */,
+				7121B8A8239084EE00A6705C /* Frameworks */,
+				7121B8A9239084EE00A6705C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -92,25 +95,25 @@
 			);
 			name = Bookworm;
 			productName = Bookworm;
-			productReference = 7121B88B239083D900A6705C /* Bookworm.app */;
+			productReference = 7121B8AB239084EE00A6705C /* Bookworm.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7121B883239083D900A6705C /* Project object */ = {
+		7121B8A3239084EE00A6705C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Erik Waterham";
 				TargetAttributes = {
-					7121B88A239083D900A6705C = {
+					7121B8AA239084EE00A6705C = {
 						CreatedOnToolsVersion = 11.3;
 					};
 				};
 			};
-			buildConfigurationList = 7121B886239083D900A6705C /* Build configuration list for PBXProject "Bookworm" */;
+			buildConfigurationList = 7121B8A6239084EE00A6705C /* Build configuration list for PBXProject "Bookworm" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,47 +121,48 @@
 				en,
 				Base,
 			);
-			mainGroup = 7121B882239083D900A6705C;
-			productRefGroup = 7121B88C239083D900A6705C /* Products */;
+			mainGroup = 7121B8A2239084EE00A6705C;
+			productRefGroup = 7121B8AC239084EE00A6705C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7121B88A239083D900A6705C /* Bookworm */,
+				7121B8AA239084EE00A6705C /* Bookworm */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7121B889239083D900A6705C /* Resources */ = {
+		7121B8A9239084EE00A6705C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7121B89B239083DB00A6705C /* LaunchScreen.storyboard in Resources */,
-				7121B898239083DB00A6705C /* Preview Assets.xcassets in Resources */,
-				7121B895239083DB00A6705C /* Assets.xcassets in Resources */,
+				7121B8BE239084EF00A6705C /* LaunchScreen.storyboard in Resources */,
+				7121B8BB239084EF00A6705C /* Preview Assets.xcassets in Resources */,
+				7121B8B8239084EF00A6705C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7121B887239083D900A6705C /* Sources */ = {
+		7121B8A7239084EE00A6705C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7121B88F239083D900A6705C /* AppDelegate.swift in Sources */,
-				7121B891239083D900A6705C /* SceneDelegate.swift in Sources */,
-				7121B893239083D900A6705C /* ContentView.swift in Sources */,
+				7121B8AF239084EE00A6705C /* AppDelegate.swift in Sources */,
+				7121B8B4239084EE00A6705C /* Bookworm.xcdatamodeld in Sources */,
+				7121B8B6239084EE00A6705C /* ContentView.swift in Sources */,
+				7121B8B1239084EE00A6705C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7121B899239083DB00A6705C /* LaunchScreen.storyboard */ = {
+		7121B8BC239084EF00A6705C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7121B89A239083DB00A6705C /* Base */,
+				7121B8BD239084EF00A6705C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +170,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7121B89D239083DB00A6705C /* Debug */ = {
+		7121B8C0239084EF00A6705C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +230,7 @@
 			};
 			name = Debug;
 		};
-		7121B89E239083DB00A6705C /* Release */ = {
+		7121B8C1239084EF00A6705C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,7 +284,7 @@
 			};
 			name = Release;
 		};
-		7121B8A0239083DB00A6705C /* Debug */ = {
+		7121B8C3239084EF00A6705C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -300,7 +304,7 @@
 			};
 			name = Debug;
 		};
-		7121B8A1239083DB00A6705C /* Release */ = {
+		7121B8C4239084EF00A6705C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -323,25 +327,38 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7121B886239083D900A6705C /* Build configuration list for PBXProject "Bookworm" */ = {
+		7121B8A6239084EE00A6705C /* Build configuration list for PBXProject "Bookworm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7121B89D239083DB00A6705C /* Debug */,
-				7121B89E239083DB00A6705C /* Release */,
+				7121B8C0239084EF00A6705C /* Debug */,
+				7121B8C1239084EF00A6705C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7121B89F239083DB00A6705C /* Build configuration list for PBXNativeTarget "Bookworm" */ = {
+		7121B8C2239084EF00A6705C /* Build configuration list for PBXNativeTarget "Bookworm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7121B8A0239083DB00A6705C /* Debug */,
-				7121B8A1239083DB00A6705C /* Release */,
+				7121B8C3239084EF00A6705C /* Debug */,
+				7121B8C4239084EF00A6705C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7121B8B2239084EE00A6705C /* Bookworm.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7121B8B3239084EE00A6705C /* Bookworm.xcdatamodel */,
+			);
+			currentVersion = 7121B8B3239084EE00A6705C /* Bookworm.xcdatamodel */;
+			path = Bookworm.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
-	rootObject = 7121B883239083D900A6705C /* Project object */;
+	rootObject = 7121B8A3239084EE00A6705C /* Project object */;
 }
