@@ -14,6 +14,7 @@
 		7121B8B8239084EF00A6705C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7121B8B7239084EF00A6705C /* Assets.xcassets */; };
 		7121B8BB239084EF00A6705C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7121B8BA239084EF00A6705C /* Preview Assets.xcassets */; };
 		7121B8BE239084EF00A6705C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7121B8BC239084EF00A6705C /* LaunchScreen.storyboard */; };
+		7121B8C623915FF400A6705C /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7121B8C523915FF400A6705C /* AddBookView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7121B8BA239084EF00A6705C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7121B8BD239084EF00A6705C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7121B8BF239084EF00A6705C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7121B8C523915FF400A6705C /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				7121B8BC239084EF00A6705C /* LaunchScreen.storyboard */,
 				7121B8BF239084EF00A6705C /* Info.plist */,
 				7121B8B2239084EE00A6705C /* Bookworm.xcdatamodeld */,
+				7121B8C523915FF400A6705C /* AddBookView.swift */,
 				7121B8B9239084EF00A6705C /* Preview Content */,
 			);
 			path = Bookworm;
@@ -153,6 +156,7 @@
 				7121B8B4239084EE00A6705C /* Bookworm.xcdatamodeld in Sources */,
 				7121B8B6239084EE00A6705C /* ContentView.swift in Sources */,
 				7121B8B1239084EE00A6705C /* SceneDelegate.swift in Sources */,
+				7121B8C623915FF400A6705C /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
