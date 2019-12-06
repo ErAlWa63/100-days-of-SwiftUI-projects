@@ -14,8 +14,6 @@
 		711B30EB239A6DB90084D3C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 711B30EA239A6DB90084D3C7 /* Assets.xcassets */; };
 		711B30EE239A6DB90084D3C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 711B30ED239A6DB90084D3C7 /* Preview Assets.xcassets */; };
 		711B30F1239A6DB90084D3C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 711B30EF239A6DB90084D3C7 /* LaunchScreen.storyboard */; };
-		711B30FA239AF9040084D3C7 /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711B30F8239AF9040084D3C7 /* Movie+CoreDataClass.swift */; };
-		711B30FB239AF9040084D3C7 /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711B30F9239AF9040084D3C7 /* Movie+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +26,6 @@
 		711B30ED239A6DB90084D3C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		711B30F0239A6DB90084D3C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		711B30F2239A6DB90084D3C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		711B30F8239AF9040084D3C7 /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataClass.swift"; sourceTree = "<group>"; };
-		711B30F9239AF9040084D3C7 /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +58,6 @@
 		711B30E0239A6DB70084D3C7 /* CoreDataProject */ = {
 			isa = PBXGroup;
 			children = (
-				711B30F8239AF9040084D3C7 /* Movie+CoreDataClass.swift */,
-				711B30F9239AF9040084D3C7 /* Movie+CoreDataProperties.swift */,
 				711B30E1239A6DB70084D3C7 /* AppDelegate.swift */,
 				711B30E3239A6DB70084D3C7 /* SceneDelegate.swift */,
 				711B30E8239A6DB70084D3C7 /* ContentView.swift */,
@@ -158,8 +152,6 @@
 				711B30E2239A6DB70084D3C7 /* AppDelegate.swift in Sources */,
 				711B30E4239A6DB70084D3C7 /* SceneDelegate.swift in Sources */,
 				711B30E9239A6DB70084D3C7 /* ContentView.swift in Sources */,
-				711B30FA239AF9040084D3C7 /* Movie+CoreDataClass.swift in Sources */,
-				711B30FB239AF9040084D3C7 /* Movie+CoreDataProperties.swift in Sources */,
 				711B30E7239A6DB70084D3C7 /* CoreDataProject.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
