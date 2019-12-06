@@ -2,10 +2,10 @@
 
 <p align="center">
     <img src="https://img.shields.io/badge/Apple Swift-version 5.1 (swiftlang--1100.0.270.13 clang--1100.0.33.7)-brightgreen.svg" />
-    <img src="https://img.shields.io/badge/MacOS Catalina-10.15.2 Developer beta 2 (19C39d)-blue.svg" />
+    <img src="https://img.shields.io/badge/MacOS Catalina-10.15.2 Developer beta 3 (19C46a)-blue.svg" />
     <img src="https://img.shields.io/badge/Xcode-11.3 beta (11C24b)-brightgreen.svg" />
-    <img src="https://img.shields.io/badge/iOS-13.3 Beta 2 (17C5038a)-blue.svg" />
-    <img src="https://img.shields.io/badge/iPadOS-13.3 beta 2 (17C5038a)-blue.svg" />
+    <img src="https://img.shields.io/badge/iOS-13.3 Beta 4 (17C5053a)-blue.svg" />
+    <img src="https://img.shields.io/badge/iPadOS-13.3 beta 4 (17C5053a)-blue.svg" />
 </p>
 
 
