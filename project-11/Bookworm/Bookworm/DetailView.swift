@@ -15,6 +15,13 @@ struct DetailView: View {
     @Environment(\.managedObjectContext) var moc
     @Environment(\.presentationMode) var presentationMode
     @State private var showingDeleteAlert = false
+
+    var dateString: String {
+        let formatter = DateFormatter()
+        formatter.dateStyle = .long
+        formatter.timeStyle = .long
+        return formatter.string(from: self.book.date ?? Date())
+    }
     
     var body: some View {
         GeometryReader { geometry in
@@ -42,6 +49,9 @@ struct DetailView: View {
                 RatingView(rating: .constant(Int(self.book.rating)))
                     .font(.largeTitle)
                 
+                Text(self.dateString)
+                    .padding()
+
                 Spacer()
             }
         }
@@ -79,6 +89,7 @@ struct DetailView_Previews: PreviewProvider {
         book.genre = "Fantasy"
         book.rating = 4
         book.review = "This was a great book; I really enjoyed it."
+        book.date = Date()
         
         return NavigationView {
             DetailView(book: book)
