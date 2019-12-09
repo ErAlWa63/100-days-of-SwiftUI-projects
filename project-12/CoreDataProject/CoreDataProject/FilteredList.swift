@@ -9,6 +9,10 @@
 import CoreData
 import SwiftUI
 
+enum predicateIdentifier: String {
+    case beginsWith = "BEGINSWITH"
+}
+
 struct FilteredList<T: NSManagedObject, Content: View>: View {
     var fetchRequest: FetchRequest<T>
 
@@ -21,15 +25,15 @@ struct FilteredList<T: NSManagedObject, Content: View>: View {
         }
     }
 
-    init(filterKey: String, filterPredicate: String, filterValue: String, sortDescriptors: [NSSortDescriptor], @ViewBuilder content: @escaping (T) -> Content) {
-        fetchRequest = FetchRequest<T>(entity: T.entity(), sortDescriptors: sortDescriptors, predicate: NSPredicate(format: "%K \(filterPredicate) %@", filterKey, filterValue))
+    init(filterKey: String, predicateIdentifier: predicateIdentifier, filterValue: String, sortDescriptors: [NSSortDescriptor], @ViewBuilder content: @escaping (T) -> Content) {
+        fetchRequest = FetchRequest<T>(entity: T.entity(), sortDescriptors: sortDescriptors, predicate: NSPredicate(format: "%K \(predicateIdentifier.rawValue) %@", filterKey, filterValue))
         self.content = content
     }
 }
 
 struct FilteredList_Previews: PreviewProvider {
     static var previews: some View {
-        FilteredList(filterKey: "lastName", filterPredicate: "BEGINSWITH", filterValue: "S", sortDescriptors: []) { (singer: Singer) in
+        FilteredList(filterKey: "lastName", predicateIdentifier: .beginsWith, filterValue: "S", sortDescriptors: []) { (singer: Singer) in
             Text("\(singer.wrappedFirstName) \(singer.wrappedLastName)")
         }
     }
