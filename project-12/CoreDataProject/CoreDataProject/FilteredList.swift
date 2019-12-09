@@ -21,15 +21,15 @@ struct FilteredList<T: NSManagedObject, Content: View>: View {
         }
     }
 
-    init(filterKey: String, filterValue: String, sortDescriptors: [NSSortDescriptor], @ViewBuilder content: @escaping (T) -> Content) {
-        fetchRequest = FetchRequest<T>(entity: T.entity(), sortDescriptors: sortDescriptors, predicate: NSPredicate(format: "%K BEGINSWITH %@", filterKey, filterValue))
+    init(filterKey: String, filterPredicate: String, filterValue: String, sortDescriptors: [NSSortDescriptor], @ViewBuilder content: @escaping (T) -> Content) {
+        fetchRequest = FetchRequest<T>(entity: T.entity(), sortDescriptors: sortDescriptors, predicate: NSPredicate(format: "%K \(filterPredicate) %@", filterKey, filterValue))
         self.content = content
     }
 }
 
 struct FilteredList_Previews: PreviewProvider {
     static var previews: some View {
-        FilteredList(filterKey: "lastName", filterValue: "S", sortDescriptors: []) { (singer: Singer) in
+        FilteredList(filterKey: "lastName", filterPredicate: "BEGINSWITH", filterValue: "S", sortDescriptors: []) { (singer: Singer) in
             Text("\(singer.wrappedFirstName) \(singer.wrappedLastName)")
         }
     }
