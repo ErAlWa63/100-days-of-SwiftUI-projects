@@ -2,7 +2,7 @@
 //  Singer+CoreDataClass.swift
 //  CoreDataProject
 //
-//  Created by Erik Waterham on 07/12/2019.
+//  Created by Erik Waterham on 09/12/2019.
 //  Copyright © 2019 Erik Waterham. All rights reserved.
 //
 //
