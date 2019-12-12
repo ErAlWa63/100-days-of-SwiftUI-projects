@@ -28,8 +28,8 @@ struct ContentView: View {
 
         let context = CIContext()
         let currentFilter = CIFilter.crystallize()
-        currentFilter.inputImage = beginImage
-        currentFilter.radius = 200
+        currentFilter.setValue(beginImage, forKey: kCIInputImageKey)
+        currentFilter.radius = 5
 
         // get a CIImage from our filter or exit if that fails
         guard let outputImage = currentFilter.outputImage else { return }
