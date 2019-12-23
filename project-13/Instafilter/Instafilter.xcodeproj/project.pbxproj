@@ -14,6 +14,7 @@
 		712FC3F823A054F100EF9AC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 712FC3F723A054F100EF9AC3 /* Assets.xcassets */; };
 		712FC3FB23A054F100EF9AC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 712FC3FA23A054F100EF9AC3 /* Preview Assets.xcassets */; };
 		712FC3FE23A054F100EF9AC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 712FC3FC23A054F100EF9AC3 /* LaunchScreen.storyboard */; };
+		7176A78823B162B700EC41CB /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7176A78723B162B700EC41CB /* ImageSaver.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		712FC3FA23A054F100EF9AC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		712FC3FD23A054F100EF9AC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		712FC3FF23A054F100EF9AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7176A78723B162B700EC41CB /* ImageSaver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSaver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				712FC3F323A054EE00EF9AC3 /* SceneDelegate.swift */,
 				712FC3F523A054EE00EF9AC3 /* ContentView.swift */,
 				711FBD9023ACEAFA00AF4C2B /* ImagePicker.swift */,
+				7176A78723B162B700EC41CB /* ImageSaver.swift */,
 				712FC3F723A054F100EF9AC3 /* Assets.xcassets */,
 				712FC3FC23A054F100EF9AC3 /* LaunchScreen.storyboard */,
 				712FC3FF23A054F100EF9AC3 /* Info.plist */,
@@ -151,6 +154,7 @@
 			files = (
 				712FC3F223A054EE00EF9AC3 /* AppDelegate.swift in Sources */,
 				711FBD9123ACEAFA00AF4C2B /* ImagePicker.swift in Sources */,
+				7176A78823B162B700EC41CB /* ImageSaver.swift in Sources */,
 				712FC3F423A054EE00EF9AC3 /* SceneDelegate.swift in Sources */,
 				712FC3F623A054EE00EF9AC3 /* ContentView.swift in Sources */,
 			);
